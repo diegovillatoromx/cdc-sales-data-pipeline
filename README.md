@@ -23,3 +23,7 @@ In this scenario, we simulate an e-commerce company that needs to analyze its sa
 - S3: Stores the processed data.
 - AWS Glue: Catalogs the data for querying.
 - Athena: Provides SQL querying capabilities for analysis.
+
+
+## Folder Structure
+
