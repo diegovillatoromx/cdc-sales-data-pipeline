@@ -27,3 +27,15 @@ In this scenario, we simulate an e-commerce company that needs to analyze its sa
 
 ## Folder Structure
 
+```arduino
+cdc-sales-data-pipeline/
+├── data_generation/
+│   └── mock_data_generator.py
+├── lambda_functions/
+│   └── cdc_transformer.py
+├── notebooks/
+│   └── aws_service_setup.ipynb
+├── README.md
+└── setup/
+    └── create_aws_resources.py
+```
