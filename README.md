@@ -19,7 +19,7 @@ In this scenario, we simulate an e-commerce company that needs to analyze its sa
 - EventBridge: Captures changes in the DynamoDB table.
 - Kinesis Data Streams: Streams captured changes for real-time processing.
 - Kinesis Firehose: Transforms and delivers data to S3.
-Lambda: Applies transformations to the data.
-S3: Stores the processed data.
-AWS Glue: Catalogs the data for querying.
-Athena: Provides SQL querying capabilities for analysis.
+- Lambda: Applies transformations to the data.
+- S3: Stores the processed data.
+- AWS Glue: Catalogs the data for querying.
+- Athena: Provides SQL querying capabilities for analysis.
