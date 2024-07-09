@@ -5,7 +5,7 @@ This repository contains a comprehensive implementation of a Change Data Capture
 ## Overview 
 This project demonstrates a robust and scalable Change Data Capture (CDC) pipeline for real-time sales data analysis using Amazon Web Services (AWS). By leveraging various AWS services, this pipeline captures data changes in a DynamoDB table, processes these changes in real-time, and stores the transformed data in an S3 bucket. The stored data is then available for analytical querying using Athena.
 
-## Project Scenario 
+## Project Scenario  
 In this scenario, we simulate an e-commerce company that needs to analyze its sales data in real-time to make timely business decisions. The company wants to track changes in orders, such as new orders, updates, and deletions, and process this data in real-time for analytics. The solution involves the following steps: 
 
 - Data Generation and Ingestion: Mock sales data is generated using a Python script and inserted into a DynamoDB table named OrdersRawTable.
