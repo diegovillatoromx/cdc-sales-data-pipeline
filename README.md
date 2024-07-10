@@ -6,7 +6,7 @@ This repository contains a comprehensive implementation of a Change Data Capture
 This project demonstrates a robust and scalable Change Data Capture (CDC) pipeline for real-time sales data analysis using Amazon Web Services (AWS). By leveraging various AWS services, this pipeline captures data changes in a DynamoDB table, processes these changes in real-time, and stores the transformed data in an S3 bucket. The stored data is then available for analytical querying using Athena.
 
 ## Architecture
-<img src='https://github.com/diegovillatoromx/ETL-Pipeline-Spotify/blob/main/architecture_diagram_spotify.gif' alt="architecture_diagram_spotify">
+<img src='https://github.com/diegovillatoromx/cdc-sales-data-pipeline/blob/main/Sales_Data_Projection/cdc-capture.gif' alt="architecture_diagram_cdc">
 
 
 ## Project Scenario  
