@@ -1,7 +1,7 @@
 # Real-Time Sales Data Analysis Pipeline with Change Data Capture (CDC)  using AWS   
 
 This repository contains a comprehensive implementation of a Change Data Capture (CDC) pipeline for real-time sales data analysis. Utilizing AWS services such as DynamoDB, Kinesis Data Streams, Kinesis Firehose, Lambda, S3, and Athena, this project demonstrates how to capture, transform, and analyze sales data in real-time. The pipeline starts with generating mock sales data and ingesting it into a DynamoDB table, followed by capturing data changes using EventBridge. The data is then processed through Kinesis Data Streams and Firehose, transformed using a Lambda function, and stored in S3 for analysis with Athena. This project aims to provide a robust and scalable solution for real-time data analytics. 
-
+ 
 ## Overview 
 This project demonstrates a robust and scalable Change Data Capture (CDC) pipeline for real-time sales data analysis using Amazon Web Services (AWS). By leveraging various AWS services, this pipeline captures data changes in a DynamoDB table, processes these changes in real-time, and stores the transformed data in an S3 bucket. The stored data is then available for analytical querying using Athena.
 
